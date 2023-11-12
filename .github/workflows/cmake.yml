@@ -38,7 +38,7 @@ jobs:
      
     - name: Set up GCC-12
       shell: bash
-      if: contains(matrix.os, 'Ubuntu')
+      if: matrix.config.os == 'ubuntu-latest'
       run: | 
         export CC=gcc-12
         export CXX=g++-12
