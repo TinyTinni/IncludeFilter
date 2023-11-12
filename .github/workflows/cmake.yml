@@ -27,8 +27,9 @@ jobs:
     - name: Install Qt
       uses: jurplel/install-qt-action@v3
       with:
-        version: '6.6'
+        version: '6.5'
         target: 'desktop'
+        add-tools-to-path: true
         setup-python: 'false'
 
     - name: Install Ninja
