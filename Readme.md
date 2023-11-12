@@ -3,7 +3,9 @@
 
 A GUI for filtering "include hierarchy"-files of C++ compilers. 
 
-All 3 big C++ Compilers support some kind of include tracking output when compiling source code. 
+![Preview](preview.jpg)
+
+All 3 big C++ Compilers support some kind of include hierarchy output when compiling source code. 
 For MSVC, it is the [`/showIncludes`](https://learn.microsoft.com/en-us/cpp/build/reference/showincludes-list-include-files) option, 
 for clang/gcc it is [`-H` or `--trace-includes`](https://clang.llvm.org/docs/ClangCommandLineReference.html#cmdoption-clang-H).
 
