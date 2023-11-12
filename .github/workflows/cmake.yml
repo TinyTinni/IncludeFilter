@@ -37,7 +37,7 @@ jobs:
       run: ${{ matrix.config.os == 'macos-latest' && 'brew install ninja' || matrix.config.os == 'ubuntu-latest' && 'sudo apt-get install ninja-build' }}
      
     - name: Set up Clang
-      if: matrix.config.os != 'ubuntu-latest'
+      if: matrix.config.os == 'ubuntu-latest'
       uses: egor-tensin/setup-clang@v1
       with:
         version: latest
