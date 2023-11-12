@@ -1,0 +1,15 @@
+Note: including file: C:\Users\Anwender\source\repos\homomorphic_filter\out\build\x64-Debug\dft_filters_autogen\include_Debug\YPKJ5OE7LN/moc_mainwindow.cpp
+    Note: including file:  C:\Users\Anwender\source\repos\homomorphic_filter\out\build\x64-Debug\dft_filters_autogen\include_Debug\YPKJ5OE7LN\../../../../../../src/ui/mainwindow.h
+    Note: including file:   C:\libs\Qt\6.5.0\msvc2019_64\include\QtWidgets\QMainWindow
+    Note: including file:    C:\libs\Qt\6.5.0\msvc2019_64\include\QtWidgets\qmainwindow.h
+    Note: including file:     C:\libs\Qt\6.5.0\msvc2019_64\include\QtWidgets/qtwidgetsglobal.h
+    Note: including file:      C:\libs\Qt\6.5.0\msvc2019_64\include\QtGui/qtguiglobal.h
+    Note: including file:       C:\libs\Qt\6.5.0\msvc2019_64\include\QtCore/qglobal.h
+    Note: including file:        C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\type_traits
+    Note: including file:         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\yvals_core.h
+    Note: including file:          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime.h
+    Note: including file:           C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\sal.h
+    Note: including file:            C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\concurrencysal.h
+    Note: including file:           C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vadefs.h
+    Note: including file:          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xkeycheck.h
+    Note: including file:         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\cstddef
