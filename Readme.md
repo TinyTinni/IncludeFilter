@@ -1,16 +1,16 @@
 # ![Logo](/src/icons/image5_64.png) Include  Filter
+[![CMake](https://github.com/TinyTinni/IncludeFilter/actions/workflows/cmake.yml/badge.svg)](https://github.com/TinyTinni/IncludeFilter/actions/workflows/cmake.yml)
 
-A GUI for filtering including tracking files of C++ compilers.
+A GUI for filtering "include hierarchy"-files of C++ compilers. 
 
-![Preview](preview.jpg)
-
-All big 3 C++ Compilers support some kind of include tracking output, when compiling source code to a translation unit. M
-For MSVC, it is the [`/showIncludes`](https://learn.microsoft.com/en-us/cpp/build/reference/showincludes-list-include-files) option, for clang/gcc it is [`-H` or `--trace-includes`](https://clang.llvm.org/docs/ClangCommandLineReference.html#cmdoption-clang-H).
+All 3 big C++ Compilers support some kind of include tracking output when compiling source code. 
+For MSVC, it is the [`/showIncludes`](https://learn.microsoft.com/en-us/cpp/build/reference/showincludes-list-include-files) option, 
+for clang/gcc it is [`-H` or `--trace-includes`](https://clang.llvm.org/docs/ClangCommandLineReference.html#cmdoption-clang-H).
 
 The output can be very helpful tracking down some specific problems.
 
-The output can be very large and, especially the MSVC output, the relation can be hard to track.
-The main problem is tracking the include hierarchy. The output helps but what includes what at which level
+But also, the output can be very large and, especially the MSVC output and the hierarchy can be hard to track.
+Figuring out what header file includes a specific header file and at which level
 can be cumbersome to untangle, especially on MSVC as they choosed to use the whitespace as the hierarchy depth indicator.
 
 For example, which files includes `cstddef` (last line). This is a shortened example for the Readme, it can get much messier very fast.
@@ -31,15 +31,15 @@ For example, which files includes `cstddef` (last line). This is a shortened exa
 ```
 
 
-This GUI program can read the output and presents the hierarchy in a treeview.
+This GUI program can read the include hierarchy output from the compiler and presents it in a treeview.
 
 You can filter the tree view and by presseing "enter", the program jumps to the first occurance of the finding.
 
 ## Supported Formats and Reading Options
-Supported formats are MSVC and clang/gcc.
+Supports formats from MSVC, clang and gcc.
 Either read it from a file or copy the compiler output in the clipboard + paste it in the IncludeFilter GUI program.
 
-The output also don't have to be complete, only a subset is required.
+It can also parse a subset of the given hierarchy output.
 
 # License
 [GPLv3 License](./LICENSE) © Matthias Möller. Made with ❤ in Germany.
