@@ -29,7 +29,6 @@ jobs:
       with:
         version: '6.5'
         target: 'desktop'
-        add-tools-to-path: true
         setup-python: 'false'
 
     - name: Install Ninja
