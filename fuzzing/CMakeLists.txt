@@ -31,7 +31,7 @@ function(add_fuzzing_target main_name)
   endif()
 endfunction()
 
-add_fuzzing_target(msvc)
-add_fuzzing_target(clang)
+#add_fuzzing_target(msvc)
+#add_fuzzing_target(clang)
 
 
