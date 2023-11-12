@@ -40,11 +40,8 @@ jobs:
       shell: bash
       if: matrix.config.os == 'ubuntu-latest'
       run: | 
-        export CC=gcc-12
-        export CXX=g++-12
-      env:
-        CC: gcc-12
-        CXX: g++-12
+        echo "CC=gcc-12" >> "$GITHUB_ENV"
+        echo "CXX=g++-12" >> "$GITHUB_ENV"
         
 
     - name: Configure CMake
