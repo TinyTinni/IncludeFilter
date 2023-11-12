@@ -2,6 +2,8 @@
 
 A GUI for filtering including tracking files of C++ compilers.
 
+![Preview](preview.jpg)
+
 All big 3 C++ Compilers support some kind of include tracking output, when compiling source code to a translation unit. M
 For MSVC, it is the [`/showIncludes`](https://learn.microsoft.com/en-us/cpp/build/reference/showincludes-list-include-files) option, for clang/gcc it is [`-H` or `--trace-includes`](https://clang.llvm.org/docs/ClangCommandLineReference.html#cmdoption-clang-H).
 
@@ -11,7 +13,7 @@ The output can be very large and, especially the MSVC output, the relation can b
 The main problem is tracking the include hierarchy. The output helps but what includes what at which level
 can be cumbersome to untangle, especially on MSVC as they choosed to use the whitespace as the hierarchy depth indicator.
 
-For example, which files includes `cstddef` (last line?). This is a shortened example for the Readme, it can get much messier very fast.
+For example, which files includes `cstddef` (last line). This is a shortened example for the Readme, it can get much messier very fast.
 ```
     Note: including file:   C:\libs\Qt\6.5.0\msvc2019_64\include\QtWidgets\QMainWindow
     Note: including file:    C:\libs\Qt\6.5.0\msvc2019_64\include\QtWidgets\qmainwindow.h
